@@ -1,6 +1,6 @@
 #include <stdio.h>
-i/*
-   *main -  use of put function.  
+/**
+   *main - Entry point.
    *Author:Hibak Abdy.
    *return: Always (0) Success.
    */
