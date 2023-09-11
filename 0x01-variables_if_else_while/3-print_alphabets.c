@@ -2,21 +2,24 @@
 /**
   *main - Entry point
   *Descrition: 'print alphabets in upper and lower case'
+  *You can only use putchar three times in your code
   *return always (0)
   */
-int main(void )
+int main(void)
 {
-	int n =97;
-	int m =65;
+	int n = 'a';
+	int m = 'A';
 
-	while (n <= 122)
+	while (n <= 'z')
 	{
 		putchar(n);
+		n++;
 	}
-	while (m <= 90)
+	while (m <= 'Z')
 	{
 		putchar(m);
+		m++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
