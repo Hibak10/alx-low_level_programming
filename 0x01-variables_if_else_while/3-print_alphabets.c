@@ -7,19 +7,19 @@
   */
 int main(void)
 {
-	int n = 'a';
-	int m = 'A';
+	char lowercase;
+	char uppercase;
 
-	while (n <= 'z')
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
-		putchar(n);
-		n++;
+		putchar(lowercase);
 	}
-	while (m <= 'Z')
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
-		putchar(m);
-		m++;
+		putchar(uppercase);
 	}
 	putchar('\n');
 	return (0);
 }
+
+
