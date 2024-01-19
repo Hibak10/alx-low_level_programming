@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
-
+/**
+ * *_strdup - function to return pointer to string
+ * @str: pointer to string array input
+ * Return: pointer to string created
+ */
 
 
 char *_strdup(char *str)
@@ -13,7 +17,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 
@@ -24,12 +28,12 @@ char *_strdup(char *str)
 
 	if (duplicate == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 	for (i = 0; i <= len; i++)
 	{
 		duplicate[i] = str[i];
 	}
-	return duplicate;
+	return (duplicate);
 }
 
