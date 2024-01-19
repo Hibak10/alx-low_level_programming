@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+ * free_grid - function to free memory
+ * @grid: pointer to grid of int type
+ * @height: int type
+ * Return: clear memory
+ */
+
 void free_grid(int **grid, int height)
 {
 	int j;
