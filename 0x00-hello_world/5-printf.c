@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
   *main - Entry point
-  *descripyion: use of printf function.
-  *return: always 0 (success)
+  *
+  *Return: Always 0 (success)
   */
 int main(void)
 {
