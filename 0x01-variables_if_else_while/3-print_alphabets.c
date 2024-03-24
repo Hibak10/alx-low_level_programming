@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
-  *main - Entry point
-  *Descrition: 'print alphabets in upper and lower case'
-  *You can only use putchar three times in your code
-  *return always (0)
+  *main - Prints the alphabetes in lowercase and then uppercase.
+  *
+  *Return: Always 0 (success)
   */
 int main(void)
 {
