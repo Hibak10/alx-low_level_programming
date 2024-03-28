@@ -1,10 +1,9 @@
 #include "main.h"
 /**
-  *print_sign -  print the sign of number
-  *@n:the number in which the sign will be printed
-  *Returns 1 if n is greater than zero
-  *Returns 0 if n is zero
-  *Returns -1 if n is less than zero
+  *print_sign - Print the sign of number
+  *@n: The chatacter to be printed
+  *Return: 1 if number is greater than 0,0 if number is 0,
+  * -1 if number is less than 0.
   */
 int print_sign(int n)
 {
