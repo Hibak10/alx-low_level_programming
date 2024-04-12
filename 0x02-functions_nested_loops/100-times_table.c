@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _times_table - Prints the times table of the input,
- * starting with 0.
- * @n: The value of the times table to be printed.
+ *print_times_table - Prints the times table up to n
+ *
+ * @n: Maximm value of the times table (n < 0  n > 15)
  */
 void print_times_table(int n)
 {
