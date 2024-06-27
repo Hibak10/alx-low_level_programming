@@ -1,10 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
+/**
+ *main - A program that add up two positive intergers
+ *@argc: Argument count
+ *@argv: Argment name
+ *Return: 1 if it is not an interger otherwise 0
+ */
 int main(int argc, char *argv[])
 {
-	int sum =0;
+	int sum = 0;
 	int i, j;
 
 	if (argc == 1)
