@@ -4,10 +4,10 @@
 #include <stddef.h>
 
 /**
- *print_dog -  A function that prints struct of a dog
+ *print_dog -  A function that prints details of a dog
  *@d: A pointer to  struct dog
  *return: void
- *This fuc=ntion prints the name age and owner of a dog
+ *This function prints the name age and owner of a dog
  *if any of these elements are NULL it prints (nil)
  */
 void print_dog(struct dog *d)
@@ -34,3 +34,4 @@ void print_dog(struct dog *d)
 		printf("Owner: %s\n", d->owner);
 	}
 }
+
