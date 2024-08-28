@@ -7,7 +7,8 @@
  *print_dog -  A function that prints struct of a dog
  *@d: A pointer to  struct dog
  *return: void
- *
+ *This fuc=ntion prints the name age and owner of a dog
+ *if any of these elements are NULL it prints (nil)
  */
 void print_dog(struct dog *d)
 {
