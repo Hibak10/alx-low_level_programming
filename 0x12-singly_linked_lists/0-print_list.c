@@ -4,9 +4,8 @@
 #include <stddef.h>
 /**
  *print_list -  Funtion that printts all elements of list_t list
- *Return: The total number of nodes
  *@h: A pointer to the head node of alinked list
- *
+ *Return: The total number of nodes
  */
 size_t print_list(const list_t *h)
 {
